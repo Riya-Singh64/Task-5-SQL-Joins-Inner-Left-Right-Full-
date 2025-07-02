@@ -13,7 +13,7 @@ To retrieve and merge data using SQL joins.
 - INNER JOIN to fetch matching records from both tables.
 - LEFT JOIN to get all records from the left table (`customers`) and matching ones from `orders`.
 - RIGHT JOIN to get all records from the right table (`orders`) and matching ones from `customers`.
-- FULL OUTER JOIN to combine all records from both tables (handled using `UNION`).
+- FULL OUTER JOIN to combine all records from both tables handled using `UNION` because MySQL does not support full join directly.
 
 ## Queries:
 -Inner Join
